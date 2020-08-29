@@ -129,3 +129,6 @@ A CTC loss function requires four arguments to compute the loss, predicted outpu
 Our model is now trained with 400000 images. Now its time to test the model. We can not use our training model because it also requires labels as input and at test time we can not have labels. So to test the model we will use ” act_model ” that we have created earlier which takes only one input: test images.
 
 As our model predicts the probability for each class at each time step, we need to use some transcription function to convert it into actual texts. Here we will use the CTC decoder to get the output text. 
+
+![Screenshot from 2020-08-29 09-17-27](https://user-images.githubusercontent.com/58425689/91627729-24098480-e9d9-11ea-98b9-88a66edeaa51.png)
+
