@@ -4,7 +4,6 @@
 
 # Requirements
    1. Tensorflow 1.8.0
-   2. Flask
    3. Numpy
    4. OpenCv 3
    
